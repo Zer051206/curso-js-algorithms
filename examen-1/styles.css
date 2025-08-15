@@ -1,0 +1,17 @@
+body {
+  font-family: 'Inter', sans-serif; 
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+}
+
+#check-btn {
+  transition: all 0.2s ease-in-out;
+}
+
+#check-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
